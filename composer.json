@@ -1,0 +1,20 @@
+{
+    "name": "yurie/php-graphql-endpoint",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Yurie\\PhpGraphqlEndpoint\\": "src/",
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex",
+            "email": "yuriev200@gmail.com"
+        }
+    ],
+    "require": {
+        "webonyx/graphql-php": "^15.19",
+        "nikic/fast-route": "^1.3"
+    }
+}
